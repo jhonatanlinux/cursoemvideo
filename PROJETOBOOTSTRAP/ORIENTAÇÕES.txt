@@ -1,0 +1,5 @@
+PROCEDIMENTOS PARA INICIAR O BROWSER SYNC
+
+cd "c:\Users\PROG-INTERVENÇÃO\Desktop\PROJETOBOOTSTRAP"
+
+browser-sync start --server --files
