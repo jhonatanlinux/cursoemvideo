@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <title>VIDEOS EM HTML5</title>
+</head>
+<body>
+    <h1>INSERINDO VIDEOS HOSPEDADOS LOCALMENTE</h1>
+    <p>ESTE VIDEO ESTA HOSPEDADO NO MEU SERVIDOR</p>
+    <video src="midia/meu_video.m4v" controls></video>
+
+    <video width="600" controls autoplay loop> <!-- POSTER VOCE COLOCA UMA IMAGEM PARA DESIGNAR O VIDEO, AUTOPLAY FUNCIONA APENAS COM VIDEOS EM MP4-->
+        <source src="midia/meu_video.m4v" type="video/m4v">
+        <source src="midia/meu_video.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos.</p>
+    </video>
+
+    <h1>INSERINDO VIDEOS DO YOUTUBE</h1>
+    <iframe width="1000" height="1000" src="https://www.youtube.com/embed/2iaPuUFIyMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; loop" allowfullscreen></iframe>
+</body>
+</html>
