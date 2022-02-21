@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <title>EXEMPLO DE HOVER</title>
+    <style>
+        body{
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        div > p{ /*ISSO FAZ COM QUE O PARAGRAFO DA DIV NÃO SEJA VISIVEL NO NAVEGADOR*/
+            display: none;
+        }
+        div:hover > p{ /*ISSO FAZ COM QUE O PARAGRADO DA DIV SEJA VISIVEL QUANDO O MOUSE PASSAR POR CIMA DO PARAGRAFO DA DIV*/
+            display: block;
+            color: brown;
+            background-color: #c7f3d0;
+            width: 30em;
+            text-align: justify; /*JUSTIFICANDO O TEXTO NO ESPAÇO DE 30EM OU 300PX*/
+        }
+        div:hover{
+            color: #1e5c2b;
+        }
+    </style>
+</head>
+<body>
+    <h1>EXEMPLO DE HOVER</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque iure obcaecati corrupti corporis at hic consectetur quasi voluptas assumenda adipisci dolorum aliquid, eaque quo tenetur autem optio suscipit ullam. Sapiente?</p>
+    <div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro laboriosam facilis amet, veniam odio doloribus consectetur delectus sequi magni, velit minima. Perspiciatis est doloremque itaque autem molestias dolorem, deleniti recusandae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quae pariatur sapiente, nobis atque optio veritatis voluptas doloribus quibusdam sit accusantium dolore facere aliquid, ipsum dicta expedita repellat commodi quam.
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum rerum adipisci neque dolorem hic officia soluta impedit labore placeat suscipit, accusamus quisquam officiis deleniti excepturi facere corrupti, ea aliquid! Rem!</p>
+    </div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur repudiandae iure tempore assumenda ullam non obcaecati omnis eaque laboriosam earum saepe, nulla ab vitae ducimus dolorem rem, asperiores, accusamus esse.</p>    
+</body>
+</html>

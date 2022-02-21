@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*MEDIDAS DE FONTES ABSOLUTAS
+    cm, mm, in(polegadas), px, pt, pc
+
+    MEDIDAS RELATIVAS
+    em, ex, rem, vw, vh, %
+    16px = 1em
+
+    USAR px OU em, RECOMENDAÇÕES OFICIAIS
+    */
+    font-size: 1em;
+    font-weight: normal;
+    /*font-weight é o peso da fonte*/
+    font-style: italic;
+    text-decoration: underline;
+}
+h1{
+    /*SHORTHAND FONT
+    font-style > font-weight > font-size > font-family
+
+    OU SEJA, AO INVES DE USAR TUDO ISSO:border:
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1em;
+    font-style: italic;
+
+    EU USO APENAS ISSO
+    font: italic bold 1em 'Times New Roman', Times, serif;
+    */
+    font: italic bold 1em 'Times New Roman', Times, serif;
+}
+h2{
+    font: bolder 1em 'Times New Roman', Times, serif;
+}
