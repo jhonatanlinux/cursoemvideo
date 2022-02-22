@@ -5,13 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
-    <title>SELETORES DE PSEUDO CLASSES</title>
-    <link rel="stylesheet" href="estilos.css">
+    <title>MODELO DE CAIXAS</title>
+    <style>
+        h1{
+            background-color: #bff8f8;
+            height: 300px;
+            width: 300px;
+
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: black;*/
+            border: 10px solid black; /*ESTA LINHA SUBSTITUI TODAS AS 3 LINHAS CIMA.*/
+
+            /*padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 30px;
+            padding-left: 40px;*/
+            padding: 10px 20px 30px 40px;/*ESTA LINHA SUBSTITUI TODAS AS 4 LINHAS CIMA.*/
+
+            /*SE AS 4 MEDIDAS FOREM IGUAIS VOCE COLOCA APENAS 1VEZ*/
+
+            /*margin-top: 20px;
+            margin-right: 50px;
+            margin-bottom: 70px;
+            margin-left: 90px;*/
+            margin: 20px auto 70px auto;/*ESTA LINHA SUBSTITUI TODAS AS 4 LINHAS CIMA.*/
+
+            /*outline-width: 5px;
+            outline-style: dashed;
+            outline-color: blue;*/
+            outline: 5px dashed blue;/*ESTA LINHA SUBSTITUI TODAS AS 3 LINHAS CIMA.*/
+        }
+        a{
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: brown;*/
+            border: 10px solid burlywood;/*ESTA LINHA SUBSTITUI TODAS AS 3 LINHAS CIMA.*/
+
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;*/
+            padding: 10px;/**ESTA LINHA SUBSTITUI TODAS AS 4 LINHAS CIMA QUANDO TODAS AS MEDIDAS FOREM IGUAIS*/
+
+            /*margin-top: 50px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+            margin-left: 50px;*/
+            margin: 8px;/**ESTA LINHA SUBSTITUI TODAS AS 4 LINHAS CIMA QUANDO TODAS AS MEDIDAS FOREM IGUAIS*/
+        }
+    </style>
 </head>
 <body>
-    <div id="d1">PSEUDO CLASSES - 1</div>
-    <div id="d2">PSEUDO CLASSES - 2</div>
-    <div id="d3">PSEUDO CLASSES - 3</div>
-    <div id="d4">PSEUDO CLASSES - 4</div>
+    <h1>EXEMPLO DE CAIXA BOX LEVEL</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">os links são exemplos de caixas inline-level</a>. Vamos ver como isso funciona na pratica.</p>
 </body>
 </html>
